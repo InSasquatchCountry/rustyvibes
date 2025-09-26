@@ -3,11 +3,14 @@
 A Rust CLI that makes mechanical keyboard sound effects on every key press
 
 ## Installation
-
-```
+OG
+```bash
 cargo install rustyvibes
 ```
-
+My fix
+```bash
+cargo install --git https://github.com/insasquatchcountry/rustyvibes.git --branch feature/silent-mode-default
+```
 ## Linux
 
 You will need to install Advanced Linux Sound Architecture [ALSA]
